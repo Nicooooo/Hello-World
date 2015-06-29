@@ -1,0 +1,928 @@
+* 
+{
+	padding:0px;
+	margin:0px;
+}
+
+body {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	}
+
+img, input, textarea 
+{
+	border: none;
+	outline: none;
+}
+.header
+{
+	background-color: #F06060;
+	height: 45px;
+	max-width: 100%;
+}
+
+
+
+.list li
+{
+	float: left;
+    padding: 10px 40px 10px 0;
+}
+.list a
+{
+	color: #ffffff;
+	font-family: 'ralewaysemibold';
+	font-size: 12px;
+}
+
+.list a:hover
+{
+	text-decoration: none;
+}
+
+li.acc_icon
+{
+	background:url(../images/account_icon.png) no-repeat center left;
+	padding-left:20px;
+}
+
+li.cart_icon
+{
+	background:url(../images/cart_icon.png) no-repeat center left;
+	padding-left:20px;
+}
+
+li.check_icon
+{
+	background:url(../images/checkout_icon.png) no-repeat center left;
+	padding-left:20px;
+}
+
+.welcome
+{
+	color: #FFFFFF;
+	float: right;
+	font-family: ralewaythin;
+	font-size: 13px;
+	height: auto;
+
+}
+
+
+#header
+{
+	border-bottom: 1px solid #EBEBEB;
+	height: 118px;
+	padding-top: 35px;
+}
+.logo
+{
+	width: 387px;
+	font-family: 'museo_slab500';
+	display:inline;
+}
+
+.logo p
+{
+	display:inline-table;
+}
+
+.logo_l
+{
+	background-color: #F06060;
+	border: 1px solid #F06060;
+	border-radius: 25px 25px 25px 25px;
+	color: #FFFFFF;
+	font-family: 'museo_slab500';
+	font-size: 56px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 52px;
+	margin-bottom: 0;
+}
+
+.logo_t
+{
+	font-size: 40px;
+	padding-left: 10px;
+	color: #000000;
+	font-family: 'museo_slab500';
+}
+
+.logo_h
+{
+	font-size: 40px;
+	padding-left: 10px;
+	color: #FFFFFF;
+	font-family: 'museo_slab500';
+}
+
+.logo a:hover
+{
+	text-decoration:none;
+}
+
+.logo span
+{
+	color:#F06060;
+}
+
+.contact
+{
+	float:right;
+	width: 465px;
+	font-family: 'museo_slab500';
+	font-size: 14px;
+	color: #7D7D7D;
+}
+
+.contact p
+{
+	margin-bottom: 0;
+	margin-top: 2px;
+	padding-left: 70px;
+	font-family: museo_slab500;
+	font-size: 13px;
+}
+
+.phone_icon
+{
+	background: url(../images/phone_icon.png) no-repeat scroll left center ;
+	border-right: 1px solid #E1E1E1;
+	float: left;
+	height: 50px;
+	width: 53px;
+}
+
+.email
+{
+	float: right;
+	width: 220px;
+	font-family: 'museo_slab500';
+	font-size: 14px;
+	color: #7D7D7D;
+	margin-right:-450px;
+}
+
+.email_icon
+{
+	background: url("../images/email_icon.png") no-repeat scroll left center transparent;
+	border-right: 1px solid #E1E1E1;
+	float: left;
+	height: 50px;
+	width: 60px;
+}
+
+.email p
+{
+	margin-bottom: 0;
+	margin-top: 2px;
+	padding-left: 70px;
+	font-family: museo_slab500;
+	font-size: 13px;
+}
+
+.nav li
+{
+	float: left;
+    padding: 10px 10px 10px 0;
+}
+.nav a
+{
+	color: #141412;
+	display: block;
+	font-family: 'ralewaysemibold';
+	font-size: 16px;
+	font-weight: bold;
+	height: 57px;
+	line-height: 28px;
+	padding: 15px 12px;
+	text-decoration: none;
+}
+
+.nav a:hover
+{
+	text-decoration: none;
+	color:#F06060;
+}
+
+.head
+{
+	background-color: #F06060;
+	height: 45px;
+	max-width: 100%;
+	background-color: #F06060;
+	height: 60px;
+	margin-top:-8px;
+	width: 100%;
+	font-family: 'museo_slab500';
+	font-size: 18px;
+	line-height: 55px;
+}
+
+.blog li 
+{
+	padding: 10px 20px 10px 0;
+	font-size: 20px;
+	line-height: 20px;
+	color: #ffffff;
+	font-family: 'museo_slab500';
+	text-decoration: none;
+}
+
+.blog li a
+{
+
+	font-size: 20px;
+	line-height: 20px;
+	color: #ffffff;
+	font-family: 'museo_slab500';
+	text-decoration: none;
+}
+
+.blog li span
+{
+	padding-right:20px;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	font-family: 'museo_slab500';
+	text-decoration: none;
+}
+
+.blog strong
+{
+	font-size: 20px;
+	float:right;
+	margin-right:50px;
+	color:#ffffff;
+}
+
+#main
+{
+	background-color: #F2F2F2;
+	height:100%;
+	width: 100%;
+}
+
+.site_main
+{
+	position: relative;
+	background-color: #F2F2F2;
+	width: 100%;
+	float: left;
+}
+
+
+
+.left_display
+{
+	float:left;
+	background:white;
+	padding-right: 0;
+	width: 65.7%;
+	margin-top: 50px;
+	margin-bottom: 55px;
+	position: relative;
+
+}
+
+.left_display2
+{
+	float:left;
+	background:white;
+	padding-right: 0;
+	width: 65.7%;
+	margin-bottom: 75px;
+	position: relative;
+
+}
+
+
+
+.image
+{
+	border:none;
+	width:100%;
+	height:384px;
+	
+}
+
+img
+{
+	vertical-align: middle;
+}
+.info
+{
+
+}
+
+h2
+{
+	line-height: 1.3;
+	font-size: 30px;
+	font-weight:normal;
+	clear: both;
+	line-height: 1.3;
+}
+
+.title a
+{
+
+	margin-left: 20px;
+	color: #141412;
+
+}
+
+.title a:hover
+{
+	color: #F06060;
+	text-decoration: none;
+
+}
+
+.details
+	{
+		margin: -15px 5px 5px 16px;
+	}
+
+.details p
+{
+	display:inline;
+	color: #141412;
+	clear: both;
+	font-family: 'ralewayregular';
+	line-height: 1.5;
+	padding:0px;
+	margin:-10px 5px 5px 0px;
+	font-size:13px;
+}
+
+.details span
+{
+	color: #f06060;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/*.bot
+{
+	background: url("../images/border.png") repeat-x scroll 0 0 transparent;
+	bottom: -9px;
+	height: 12px;
+	position: absolute;
+	
+	z-index: 99;
+	
+}
+
+.left
+{
+	background: url("../images/left_corner.png") no-repeat scroll 0 0 transparent;
+	bottom: -9px;
+	height: 20px;
+	position: absolute;
+	width: 18px;
+	margin-left:-16px;
+	z-index: 99;
+	
+}
+
+
+.right
+{
+	background: url("../images/right_corner.png") no-repeat scroll 0 0 transparent;
+	bottom: -9px;
+	height: 21px;
+	position: absolute;
+	margin-left:680px;
+	width: 20px;
+	z-index: 99;
+
+}
+*/
+
+.right_display
+{
+	float: right;
+	width: 31.5%;
+	margin-top: 20px;
+}
+.search
+{
+
+	float:left;
+	margin-top: 20px;
+	height:40px;
+	width:100%	;
+	border-radius: 8px 8px 8px 8px;
+	padding:10px;
+}
+
+.button
+{
+	float:right;
+	margin-top: 20px;
+	margin-left: -8px;
+	background:#f06060;
+	color:white;
+	width: 100px;
+	font-family: 'museo_slab500';
+	font-size: 18px;
+	border-radius: 8px 8px 8px 8px;
+	height:40px;
+}
+
+.S_Blog
+{
+
+	margin-left:-8px;
+	border-bottom: 3px solid #DDDDDD;
+	color: #454545;
+	font-size: 25px;
+	margin: 20px 0 10px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+.C_Blog
+{
+	float:right;
+
+	border-bottom: 3px solid #DDDDDD;
+	min-width: 100%;
+	color: #454545;
+	font-size: 25px;
+	margin: 35px 0px 10px 0px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+.cate
+{
+	float:right;
+	min-width: 100%;
+	margin-bottom: 30px;
+
+
+}
+.cate .active
+{
+	color:#f06060;
+}
+
+
+.cate li a
+{
+	color: #454545;
+	font-family: 'museo_slab500';
+	font-size: 15px;
+}
+
+.B_Blog
+{
+
+	margin-left:-8px;
+	border-bottom: 3px solid #DDDDDD;
+	color: #454545;
+	font-size: 25px;
+	margin: 35px 0 10px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+.blogs
+{
+		float:right;
+		min-width: 100%;
+}
+.blogs li
+{
+	margin-top: 10px;
+	margin-left: 5px;
+	background:white;
+	border-radius: 5px;
+	padding:5px;
+	border:1px solid #DDDDDD;
+	margin-bottom: 20px;
+	border-radius: 8px 8px 8px 8px;
+	height:40px;
+}
+
+.blogs li a
+{
+	color: #454545;
+	font-family: 'museo_slab500';
+	font-size: 18px;
+	padding: 5px;
+
+}
+
+.blogs li a:hover
+{
+	text-decoration: none;
+}
+
+.P_Blog
+{
+	margin-left:-8px;
+	border-bottom: 3px solid #DDDDDD;
+	color: #454545;
+	font-size: 25px;
+	margin: 35px 0 10px;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+.post .active
+{
+	color:#f06060;
+}
+
+.post li
+{
+	margin-top: 10px;
+	margin-left: 5px;
+
+}
+
+.post li a
+{
+	color: #454545;
+	font-family: 'ralewayregular';
+	font-size: 18px;
+}
+
+.footer
+{
+	background-color: #2F2F2F;
+color: #686758;
+float: left;
+font-size: 14px;
+margin-top: 0 !important;
+
+width: 100%;
+padding-top: 100px;
+position: relative;
+display:block;
+}
+
+
+.mid_fo
+{
+	background-color: #FFFFFF;
+	border: 1px solid #EBEBEB !important;
+	border-radius: 10px 10px 10px 10px !important;
+	top: -52px;
+	height: 131px;
+	line-height: 131px;
+	margin-left: 4%;
+	position: absolute;
+	width:80%;
+	max-width: 850px;
+}
+
+.mid_foot
+{
+	margin-left: 10%;
+	margin-right:10%;
+}
+
+
+.marg input[type="text"]
+{
+	float:left;
+	width:70%;
+}
+
+.size
+{
+	width:100%;
+}
+.search2
+{
+
+	height:40px;
+	border-radius: 8px 8px 8px 8px;
+	padding:10px;
+
+}
+
+.button2
+{
+	float:left;
+	background:#f06060;
+	color:white;
+	font-family: 'museo_slab500';
+	font-size: 18px;
+	border-radius: 8px 8px 8px 8px;
+	
+}
+
+.foot_log
+{
+	float: left;
+	width: 30%;
+	margin-top: 10px;
+	clear:both;
+}
+
+.logo2
+{
+
+border-bottom: 4px solid #3B3B3B;
+font-family: 'museo_slab500';
+height: auto;
+margin-bottom: 10px;
+padding-bottom: 18px;
+
+}
+
+
+
+.logo2_l
+{
+	background-color: #F06060;
+	border: 1px solid #F06060;
+	border-radius: 25px 25px 25px 25px;
+	color: #FFFFFF;
+	font-family: 'museo_slab500';
+	font-size: 56px;
+	height: 50px;
+	line-height: 50px;
+	text-align:center;
+	width: 52px;
+	margin-bottom: 0;
+	display:inline-table;
+}
+
+
+.logo2_h
+{
+	display:inline-table;
+	font-size: 40px;
+	padding-left: 10px;
+	color: #FFFFFF;
+	font-family: 'museo_slab500';
+}
+
+.foot_info
+{
+	color: #FFFFFF !important;
+	text-align: left;
+	font-family: 'ralewayregular';
+	font-size: 16px;
+}
+
+.foot_num
+{
+	margin-bottom: 15px;
+	margin-top: 25px;
+	text-align: left;
+	font-family: 'museo_slab500';
+	color: #7d7d7d!important;
+	font-size: 14px;
+}
+
+.foot_num span
+{
+	color: #434343;
+}
+
+.emaail
+{
+	margin-top:5px;
+	font-size:15px;
+	font-family: 'museo_slab500';
+	color: #7d7d7d!important;
+}
+
+.hours
+{
+	font-size: 16px;
+	font-family: 'museo_slab500';
+}
+
+.foot_num ul
+{
+	margin-top:15px;
+}
+.foot_num ul li
+{
+	float:left;
+	padding-right:10px;
+}
+.fb
+{
+	background: url("../images/fb_icon.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	width: 30px;
+	padding-right:10px;
+	float:left;
+}
+
+.tw
+{
+	background: url("../images/twitter_icon.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	width: 30px;
+	margin-right:10px;
+	
+}
+
+.go
+{
+	background: url("../images/g_icon.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	width: 30px;
+	margin-right:10px;
+	
+}
+
+.lin
+{
+	background: url("../images/linkedin_icon.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	width: 30px;
+	margin-right:10px;
+}
+
+.you
+{
+	background: url("../images/youtube_icon.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	width: 30px;
+	margin-right:10px;
+}
+
+.foot_shop
+{
+	float: left;
+	width: 69%;
+	margin-top:25px;
+
+}
+
+
+.foot_shop2
+{
+	float: left;
+	margin-left: 20px;
+	width:40%;
+	
+}
+
+.foot_mid2
+{
+	float: left;
+	width: 100%;
+
+	
+
+}
+
+.foot_mid2 h3
+{
+	color: #fff;
+	border-bottom: 4px solid #3B3B3B;
+	font-size: 40px;
+	margin: 0 0 10px;
+	padding-bottom: 21px;
+	font-family: 'museo_slab500';
+	line-height: 1.3;
+}
+
+
+
+.foot_mid
+{
+	float: left;
+	width: 48%;
+	margin-left: 25px;
+	
+
+}
+
+.foot_mid h3
+{
+	color: #fff;
+	
+	border-bottom: 4px solid #3B3B3B;
+	font-size: 40px;
+	margin: 0 0 10px;
+	padding-bottom: 21px;
+	font-family: 'museo_slab500';
+	line-height: 1.3;
+}
+
+
+
+
+.shop_list a
+{
+	margin-left: 37px;
+	color: #FFFFFF !important;
+
+	font-family: 'museo_slab500';
+	font-size: 16px!important;
+	font-weight: normal !important;
+	height:20px;
+}
+
+.shop_list a:hover
+{
+	color: #F06060!important;
+	text-decoration:none;
+}
+
+.shop_list
+{
+	list-style: none outside;
+	padding: 0;
+	margin: 0;
+	width:50%;
+}
+
+.shop_list li
+{
+	padding-left: 10%;
+	padding-right: 5%;
+	margin-top: 10px;
+	margin-bottom: 12px;
+	float:left;
+	
+	border-right: 1px solid #3B3B3B!important;
+}
+
+.shop_list p
+{
+	margin-top: 16px;
+	margin-left: 37px;
+	color: #6C6C6C;
+	font-family: 'museo_slab500';
+	width: 112px;
+
+}
+
+.shop_list2
+{
+	float:left;
+	width: 40%;
+	list-style: none outside;
+	padding: 0;
+	margin-top: 9px;
+	text-align:center;
+
+}
+
+
+.price
+{
+	color: #F06060;
+	float: left;
+	font-family: 'museo_slab500';
+	font-size: 32px;
+	line-height: 23px !important;
+	padding: 5px 0px 9px 0px;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.shop_list2 p
+{
+	float: left;
+	width: 100%;
+	clear: both;
+	margin: 0px 0px 0px -5px;
+}
+
+
+.divider
+{
+	width:100%;
+	float:left;
+	height:1px;
+	background-color:#3B3B3B;
+}
+
+.footer2
+{
+	background-color: #262626!important;
+	color: #404040;
+	height: 45px;
+	line-height: 42px;
+	font-family: 'ralewayregular';
+	font-size: 12px;
+}
+
+.clear
+{
+	clear:both;
+}

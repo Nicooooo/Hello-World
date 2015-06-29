@@ -1,0 +1,123 @@
+* 
+{
+	padding:0px;
+	margin:0px;
+}
+
+
+li.acc_icon
+{
+	background:url(../images/account_icon.png) no-repeat center left;
+	
+}
+
+li.cart_icon
+{
+	background:url(../images/cart_icon.png) no-repeat center left;
+}
+
+li.check_icon
+{
+	background:url(../images/checkout_icon.png) no-repeat center left;	
+}
+
+.head
+{
+	background-color: #F06060;
+	border: 1px solid #F06060;
+	border-radius: 25px 25px 25px 25px;
+	color: #FFFFFF;
+	font-family: 'museo_slab500';
+	font-size: 56px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 0;
+	display:inline-table;
+}
+
+.phone_icon
+{
+	background: url(../images/phone_icon.png) no-repeat scroll left center ;
+	border-right: 1px solid #E1E1E1;
+	height: 50px;
+	width: 53px;
+	float:left;
+}
+
+.email_icon
+{
+	float:left;
+	background: url("../images/email_icon.png") no-repeat scroll left center transparent;
+	border-right: 1px solid #E1E1E1;
+	height: 50px;
+	width: 60px;
+}
+
+.pad li a
+{
+	text-align:center;
+	padding:5px!important;
+}
+
+.nav-h
+{
+	height: 60px!important;
+}
+
+.left-display
+{
+	padding:0px!important;
+	background: white;
+	margin-top: 30px;
+	
+}
+
+#main
+{
+	background-color: #F2F2F2;
+	height: 100%;
+	width: 100%;
+}
+
+.info
+{
+	border:none!important;
+	margin-top:10px!important;
+	margin-bottom:0px!important;
+	padding-bottom:0px!important;
+	margin-left: 20px;
+}
+
+.info a:hover
+{
+	text-decoration:none;
+}
+
+.info h2
+{
+	margin-bottom:0px!important;
+}
+
+
+.details
+{
+	margin-left: 10px;
+	margin-top:0px!important;
+}
+
+.details p
+{
+	color: #141412;
+	font-family: 'ralewayregular';
+	margin: 0px 5px 5px 0px;
+	font-size: 13px;
+}
+
+.details span
+{
+	color: #f06060;
+	font-size: 13px;
+	font-weight: bold;
+}
